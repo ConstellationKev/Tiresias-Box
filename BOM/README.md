@@ -1,0 +1,14 @@
+# BOM Notes
+## Why Certain Parts?
+1. I chose the Raspberry Pi 5 because it only costs $9 more than the Raspberry Pi 4 and is the newest version. 4GB RAM was due to the research I did that asked for live computer vision analysis using tools like OpenCV and OCR. It was slightly on the lower end of the RAM many people suggested but it should be fine to run my CV applications, as well as all the other things in the code. I also don't know how to make my own PCB (but will definitately learn in the near future!) and this was suggested as the most beginner friendly way to manage and operate my project since it is essentially like a computer which I can code on.
+2. The Raspberry Pi Camera Module 3 was chosen because of its relatively high image quality as well as ability to autofocus. My project requires the camera to be able to detect and analyze text that appears in real life so having higher quality is a must. Autofocus is also a great feature since the people should not need to manually focus the camera; I also don't know how they would since they are blind.
+3. The Adafruit PCA9685 is needed since many people suggested it is not good practice to run servos as well as a camera and doing live analysis using scripts on the Raspberry Pi all at once. This allows servos to run separately and not put any load on the Pi, which lowers the risk of frying it.
+4. The push button was chosen since most buttons I found are for breadboards and this one can be directly plugged into the Raspberry Pi which helps a beginner a lot.
+
+## Why Certain Buy Links?
+Most of these buy links are to materials that are more in quantity that I need but I genuinely tried to find the least and cheapest options online.
+1. The 20 AWG wires on Amazon were the least length I could find online since most vendors sell by tons of feet but I don't need that much. This is the least I can find for two colored wires.
+2. The Push Button also comes in a pack of 5 on Amazon but I could not find any cheaper and singular selling buttons online. Most buttons I find either come in even larger packs or do not contain two wires to connect to the Raspberry Pi. 5 pack is least I can find.
+3. The SG90 servos on Amazon are the digital ones that I need for precise movement but the least pack I can find them in is a pack of 3 when I only need 2. I tried finding packs of two online for digital servos but they are either very poorly reviewed or even more expensive than this 3 pack or they don't mention that they are digital.
+4. The same situation for the jumper wires as the 20AWG hookup wires.
+5. For the screws + nuts kits, I don't have any srews and stuff at home so this is the first time getting these kits. Other kits online are are either too expensive or do not contain the lengths of screws I need. This is also like an investment for my future projects so I don't need to buy any more screws.
