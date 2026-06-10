@@ -1,5 +1,5 @@
-Material,Qty,Units,Buying Link,Cost,
-Raspberry Pi 5 4GB RAM,1,Each,https://www.microcenter.com/product/673712/raspberry-pi-5,$109.99,
+Material,Qty,Units,Buying Link (accounts for the quantity),Cost,
+Raspberry Pi 5 4GB RAM,1,Each,https://www.microcenter.com/product/673712/raspberry-pi-5,$109.99,"I can pay out of pocket for this if it is unable to be approved for funding."
 Raspberry Pi Camera Module 3 Standard - 12MP Autofocus,1,Each,https://www.adafruit.com/product/5657,$29.25,
 Raspberry Pi 5 FPC Camera Cable,1,Each,https://www.microcenter.com/product/671933/raspberry-pi-5-camera-cable-300mm,$2.99,
 Adafruit 16-Channel 12-bit PWM/Servo Driver - I2C interface - PCA9685,1,Each,https://www.microcenter.com/product/613661/adafruit-industries-16-channel-12-bit-pwm-servo-driver,$14.95,
