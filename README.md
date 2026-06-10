@@ -1,6 +1,5 @@
 # Tiresias' Box
 
-2026 Fallout Project.
 A portable, dynamic braille translator that incorporates an idea for changeable braille never been presented before. This is the first ever braille actuator cell that uses CAM mechanisms to change the positions of the braille dots.
 
 Front  
