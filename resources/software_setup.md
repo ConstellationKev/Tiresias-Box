@@ -21,16 +21,16 @@ This setup guide should be completed first before the hardware setup guide.
 
 ## Using Adafruit PCA9685 Servo Driver
 1. This project requires an Adafruit PCA9685 Servo Driver which helps powers servos without having to put load onto the Raspberry Pi
-2. Go to your terminal in the Raspberry Pi and type in this command: sudo pip3 install adafruit-circuitpython-servokit
-3. If an "externally managed" error comes up, type in this command: sudo rm /usr/lib/python3.11/EXTERNALLY-MANAGED
+2. Go to your terminal in the Raspberry Pi and type in this command: `sudo pip3 install adafruit-circuitpython-servokit`
+3. If an "externally managed" error comes up, type in this command: `sudo rm /usr/lib/python3.11/EXTERNALLY-MANAGED`
 4. This should download the library necessary for the code to run properly.
 5. Refer to this documentation is anything is unclear: https://docs.circuitpython.org/projects/servokit/en/latest/
 
 ## Code Running Upon Power On
 1. This is optional but you can run the code as soon as the Raspberry Pi is powered on, to give a more authentic feel to the project, making it seem like its a real product.
-2. Open the terminal in the Raspberry Pi and then type in: sudo crontab -e
+2. Open the terminal in the Raspberry Pi and then type in: `sudo crontab -e`
 3. Then, type 1 if it’s asking to select an editor.
-4. Type in the command: @reboot python3 /home/pi/Desktop/main.py &
+4. Type in the command: `@reboot python3 /home/pi/Desktop/main.py &`
 5. The above really depends on where you put your code files so you can change it accordingly. This assumes you have it all on your Desktop but you would likely have them in the firmware folder still.
 
 ## Huge Thanks
