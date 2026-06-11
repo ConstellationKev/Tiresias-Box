@@ -1,5 +1,5 @@
 # Hardware Setup
-If you haven't already, please set up the Rapsberry Pi 5 software and OS first before doing the hardware setup. This can be found in the software_setup file.
+If you haven't already, please set up the Rapsberry Pi 5 software and OS first before doing the hardware setup. This can be found in the [software setup](software_setup.md) file.
 PLEASE REFER TO THIS WIRING DIAGRAM AS YOU PROCEED:
 ![](wiring%20diagram.jpg)
 Also refer to the [BOM](Tiresias-Box/BOM/BOM.csv) which will contain everything you will need to assemble this project.
