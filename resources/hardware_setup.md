@@ -31,8 +31,8 @@ Refer to these YouTube videos if you are confused, they helped me a ton: https:/
 1. Take the 20AWG wires and then cut and strip them to however long you want them to be and then insert them into the terminal block onto the PCA9685.
 2. Take the other end and insert it into the Female DC power adapter. You need to screw in the screws a bit to keep the wires in place for both.
 3. MAKE SURE THE WIRES ARE CORRECTLY WIRED, positive goes to positive and negative goes to negative. Any mix up will potentially fry your entire project. Red is usually positive.
-4. Plug in the black 5V power supply into a wall socket and the other end into the female DC power adapter.
-5. Plug in the white USB-C power supply into a wall socket and the other end into the Raspberry Pi.
+4. Plug in the 5V power supply into a wall socket and the other end into the female DC power adapter.
+5. Plug in the USB-C power supply into a wall socket and the other end into the Raspberry Pi.
 
 ## Gears
 1. Plug your Raspberry Pi into a monitory, since you need to run code.
