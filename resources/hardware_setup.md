@@ -1,5 +1,8 @@
 # Hardware Setup
-If you haven't already, please set up the Rapsberry Pi 5 software and OS first before doing the hardware setup. This can be found in the software_setup file.
+If you haven't already, please set up the Rapsberry Pi 5 software and OS first before doing the hardware setup. This can be found in the [software setup](software_setup.md) file.
+PLEASE REFER TO THIS WIRING DIAGRAM AS YOU PROCEED:
+![](wiring%20diagram.jpg)
+These hardware steps are assuming you have everything that the BOM requires. Also refer to the [BOM](../BOM/BOM.csv) which will contain everything you will need to assemble this project.
 
 ## Starting to Putting Everything Together (Leave Gears to the End)
 1. First, print out the 3D file for the base of this box, as well as all of the other required 3D printed parts included.
@@ -50,7 +53,7 @@ Refer to these YouTube videos if you are confused, they helped me a ton: https:/
 2. Now that the base and everything else is set up, screw in the walls first using M2.5 10mm screws. The holes should line up with the ports on the Rapsberry Pi / the camera hole.
 3. Take your roof and then wire the button wires through the button hole on the top.
 4. Take your button wires and plug the button into the Raspberry Pi, one into a ground pin and the other in GPIO pin 5.
-5. Hot glue your button onto the roof, or you can use any other type of binding method, or just leave it. The box isnt supposed to be moved around anyways.
+5. Hot glue your button onto the roof, or you can use any other type of binding method, or just leave it. The box isnt supposed to be moved around anyways and the mount for the button should be very snug such that it will be decently stuck in there.
 6. Screw in the roof using M2.5 10mm screws.
 7. Finally, place the 6 braille pins into the 6 holes on the top of the roof. Do not push them in, simply let them drop in.
 
