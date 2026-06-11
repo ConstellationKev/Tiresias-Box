@@ -1,7 +1,7 @@
 # Hardware Setup
 If you haven't already, please set up the Rapsberry Pi 5 software and OS first before doing the hardware setup. This can be found in the software_setup file.
 PLEASE REFER TO THIS WIRING DIAGRAM AS YOU PROCEED:
-![](resources/wiring%20diagram.jpg)
+![](wiring%20diagram.jpg)
 
 ## Starting to Putting Everything Together (Leave Gears to the End)
 1. First, print out the 3D file for the base of this box, as well as all of the other required 3D printed parts included.
