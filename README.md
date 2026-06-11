@@ -99,3 +99,7 @@ I would also like to make the CAM and pins even smoother. Right now, even using 
 
 * Discord: eclipse\_c  
 * Email: kevinkunzhong@gmail.com
+
+# Zine
+![](assets/fallout_zine_png.png)
+The [PDF version](resources/fallout%20project%20zine.pdf) can be found in the resources folder.
