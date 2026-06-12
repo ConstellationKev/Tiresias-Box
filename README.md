@@ -1,6 +1,6 @@
 # Tiresias' Box
 
-A portable, dynamic braille translator that incorporates an idea for changeable braille never been presented before. This is the first ever braille actuator cell that uses CAM mechanisms to change the positions of the braille dots.
+A portable, dynamic braille translator for both English and Chinese that incorporates an idea for changeable braille never been presented before. This is the first ever braille actuator cell that uses CAM mechanisms to change the positions of the braille dots.
 
 Front  
 ![](assets/front.png)
