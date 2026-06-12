@@ -1,11 +1,11 @@
-Material,Qty,Units,Buying Link (accounts for the quantity),Cost,
-Raspberry Pi 5 4GB RAM,1,Each,https://www.microcenter.com/product/673712/raspberry-pi-5,$109.99,"I can pay out of pocket for this if it is unable to be approved for funding."
-Raspberry Pi Camera Module 3 Standard - 12MP Autofocus,1,Each,https://www.adafruit.com/product/5657,$29.25,
+Material,Qty,Units,Buying Link (Accounts for quantity),Cost (Accounts for shipping),Notes
+Raspberry Pi 5 4GB RAM,1,Each,https://www.microcenter.com/product/673712/raspberry-pi-5,$109.99,I can pay out of pocket for this if it is unable to be approved for funding.
+Raspberry Pi Camera Module 3 Standard - 12MP Autofocus,1,Each,https://www.amazon.com/Raspberry-Pi-Camera-Module/dp/B0BRY6MVXL/,$43.89,
 Raspberry Pi 5 FPC Camera Cable,1,Each,https://www.microcenter.com/product/671933/raspberry-pi-5-camera-cable-300mm,$2.99,
 Adafruit 16-Channel 12-bit PWM/Servo Driver - I2C interface - PCA9685,1,Each,https://www.microcenter.com/product/613661/adafruit-industries-16-channel-12-bit-pwm-servo-driver,$14.95,
 20 AWG Silicone Hookup Wires (2 Colors),2,Wires,https://www.amazon.com/Silicone-Electrical-Core-Flexible-Strands/dp/B0B9JCXN9M/,$5.88,
-Female DC Power adapter - 2.1mm jack to screw terminal block,1,Each,https://www.adafruit.com/product/368,$2.00,
-5V 2A (2000mA) switching power supply - UL Listed,1,Each,https://www.adafruit.com/product/276,$7.95,
+Female DC Power adapter - 2.1mm jack to screw terminal block,1,Each,https://www.amazon.com/ALITOVE-100-240V-Replacement-Security-Raspberry/dp/B0BVHQKNS6/,$9.99,
+5V 2A (2000mA) switching power supply - UL Listed,1,Each,Same as above ^,$0.00,Included in above price
 Raspberry Pi 27W USB-C PSU,1,Each,https://www.microcenter.com/product/671926/raspberry-pi-27w-usb-c-psu-white?src=raspberrypi,$11.99,
 6mm 2 Pin Panel PCB Momentary Tactile Tact Push Button,1,Each,https://www.amazon.com/MakerSpot-Momentary-Extension-Breadboard-Friendly/dp/B01J9KO7DC,$7.99,
 SG90 9g Digital Micro Servo,2,Servos,https://www.amazon.com/Micro-Miuzei-Servos-Arduino-Airplane/dp/B0FJQZSFMS?th=1,$8.44,
@@ -14,4 +14,19 @@ M2 Screws + Nuts Kit,1,Each,https://www.amazon.com/QOOSIKICC-Assortment-Socket-W
 Soldering Kit,1,Each,https://www.amazon.com/Soldering-soldering-solder-adjustable-temperature/dp/B09DY7CCW5/,$9.99,"Self-sourced, I already own this so I don't need extra funding for this."
 Jumper Wires F-F,4,Wires,https://www.microcenter.com/product/618773/inland-30cm-40-pin-f-f-jumper-wire,$2.99,
 16GB Micro SD Card with Adapter,1,Each,https://www.amazon.com/SanDisk-Ultra-MicroSDHC-Memory-Adapter/dp/B00KNSAIVU/,$26.89,"Self-sourced, I already own this so I don't need extra funding for this."
-,,,Total Cost:,$258.87,
+Base 3D Part,1,Each,N/A,$1.65,"Self-sourced, I already own this so I don't need extra funding for this."
+Braille Pin 3D Part,6,Each,N/A,$0.06,"Self-sourced, I already own this so I don't need extra funding for this."
+Close Wall 3D Part,1,Each,N/A,$0.44,"Self-sourced, I already own this so I don't need extra funding for this."
+Far Wall 3D Part,1,Each,N/A,$0.44,"Self-sourced, I already own this so I don't need extra funding for this."
+Inner Cam Servo Gear 3D Part,1,Each,N/A,$0.07,"Self-sourced, I already own this so I don't need extra funding for this."
+Inner Cam 3D Part,1,Each,N/A,$0.04,"Self-sourced, I already own this so I don't need extra funding for this."
+Left Wall 3D Part,1,Each,N/A,$0.45,"Self-sourced, I already own this so I don't need extra funding for this."
+Long Spacer 3D Part,4,Each,N/A,$0.04,"Self-sourced, I already own this so I don't need extra funding for this."
+Outer Cam Servo Gear 3D Part,1,Each,N/A,$0.05,"Self-sourced, I already own this so I don't need extra funding for this."
+Outer Cam 3D Part,1,Each,N/A,$0.02,"Self-sourced, I already own this so I don't need extra funding for this."
+Right Wall 3D Part,1,Each,N/A,$0.47,"Self-sourced, I already own this so I don't need extra funding for this."
+Roof 3D Part,1,Each,N/A,$0.77,"Self-sourced, I already own this so I don't need extra funding for this."
+Upper Mounting Plate 3D Part,1,Each,N/A,$0.13,"Self-sourced, I already own this so I don't need extra funding for this."
+"Taxes (in Fremont, California)",N/A,N/A,N/A,$28.51,"I don't need extra funding for this, I can pay this."
+,,,Total Cost:,$306.69,
+,,,Note: Everything is bought with Amazon and Microcenter which has free shipping,,
