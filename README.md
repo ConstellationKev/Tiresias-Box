@@ -10,7 +10,7 @@ Back
 
 # Overview
 
-This is a fun box that has a feature to take pictures of where its camera is pointing and then extracts the text it sees in real life to translate into braille in the braille area on top of the box. This box is only about 12 cm x 12 cm x 5.5 cm large and is very light. The white and orange design of the box was inspired by FRC 118 Robonauts, the team that got me into the white and orange design colors. The extremely easy assembly makes this a very beginner friendly project that even me, a complete beginner, could build with ease.
+This is a fun box that has a feature to take pictures of where its camera is pointing and then extracts the English or Chinese text it sees in real life to translate into braille in the braille area on top of the box. This box is only about 12 cm x 12 cm x 5.5 cm large and is very light. The white and orange design of the box was inspired by FRC 118 Robonauts, the team that got me into the white and orange design colors. The extremely easy assembly makes this a very beginner friendly project that even me, a complete beginner, could build with ease.
 
 # Highlights
 
