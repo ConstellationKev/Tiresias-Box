@@ -26,6 +26,11 @@ This setup guide should be completed first before the hardware setup guide.
 4. This should download the library necessary for the code to run properly.
 5. Refer to this documentation is anything is unclear: https://docs.circuitpython.org/projects/servokit/en/latest/
 
+## Installing Libraries
+1. Go to you Raspberry Pi terminal (which you should have open already from the preivous steps)
+2. Install easyocr: `sudo pip3 install easyocr`
+3. Install deep_translator: `sudo pip3 install deep-translator`
+
 ## Code Running Upon Power On
 1. This is optional but you can run the code as soon as the Raspberry Pi is powered on, to give a more authentic feel to the project, making it seem like its a real product.
 2. Open the terminal in the Raspberry Pi and then type in: `sudo crontab -e`

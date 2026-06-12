@@ -34,6 +34,16 @@ inner_servo_positions = {
     "x" : 0,
     "y" : 0,
     "z" : 0,
+    "0" : 0, 
+    "1" : 0, 
+    "2" : 0, 
+    "3" : 0, 
+    "4" : 0, 
+    "5" : 0, 
+    "6" : 0, 
+    "7" : 0, 
+    "8" : 0, 
+    "9" : 0
 }
 
 outer_servo_positions = {
@@ -63,7 +73,19 @@ outer_servo_positions = {
     "x" : 0,
     "y" : 0,
     "z" : 0,
+    "0" : 0, 
+    "1" : 0, 
+    "2" : 0, 
+    "3" : 0, 
+    "4" : 0, 
+    "5" : 0, 
+    "6" : 0, 
+    "7" : 0, 
+    "8" : 0, 
+    "9" : 0
 }
+
+# move to english letter and numbers only, no need to worry about translations here
 
 def move_to_letter(letter):
     position(0, inner_servo_positions[letter], 0.02)

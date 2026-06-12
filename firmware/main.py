@@ -6,6 +6,7 @@ import servos
 button = Button(5) #pin 5 but could change
 servos.initial_pos()
 
+english = True
 status = True #true for on
 pressed = False
 photo_taken = False
@@ -21,18 +22,24 @@ while status:
     elif not button.is_pressed and pressed:
         pressed = False
         duration = time.time() - start_time
-        if duration >= 3:
+        if duration >= 6:
             status = False
+        elif duration >= 3:
+            english = not english
         else:
             camera.take_photo()
             photo_taken = True
 
     if photo_taken:
         photo_taken = False
-        letters = camera.analyze_photo()
+        if english:
+            letters = camera.analyze_photo()
+        else:
+            letters = camera.analyze_chinese_photo()
         if letters != []:
             for i in len(letters):
                 servos.move_to_letter(letters[i].lower())
                 time.sleep(wait)
+            letters = []
 
 camera.stop_camera()
