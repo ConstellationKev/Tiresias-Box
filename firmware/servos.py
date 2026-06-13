@@ -88,8 +88,8 @@ outer_servo_positions = {
 # move to english letter and numbers only, no need to worry about translations here
 
 def move_to_letter(letter):
-    position(0, inner_servo_positions[letter], 0.02)
-    position(3, outer_servo_positions[letter], 0.02)
+    position(0, inner_servo_positions[letter], 0.01)
+    position(3, outer_servo_positions[letter], 0.01)
 
 #gradually moves servo
 def position(servo_num, end_pos, delay):
