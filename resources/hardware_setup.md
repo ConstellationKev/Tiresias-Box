@@ -41,12 +41,13 @@ Refer to these YouTube videos if you are confused, they helped me a ton: https:/
 1. Plug your Raspberry Pi into a monitory, since you need to run code.
 2. Run hardware_setup.py and then make sure to not touch the servo splines or move them after the code is ran.
 3. Place the inner orange CAM on the bottom first, onto the indent for it. Locate the small dot on the gear and make sure it faces away from the direction the camera is pointing.
-4. Place the orange servo gear onto the lower servo's spline, making sure the gear lines up well with the CAM gear. Make sure not to move the CAM gear. Adjust the servo gear based on it. Try to make the rubbing between the top og the servo gear and the CAM as less as possible.
-5. Then, place the white outer CAM on top of the orange CAM, with the dot facing in the same orientation. 
-6. Place the white servo gear onto the higher servo's spline. Do the same as the other one.
-7. Use the servo srews that they provided and screw the servo gears onto the servos.
-8. No screws are needed for the CAMs, they are held in place by the servo gears as well as each other.
-9. Unplug the two external power supplies from the PCA9685 and Raspberry Pi.
+4. Place the double-sided servo horns on each of the servos, putting one of the sides as close to the normal as possible but not entirely vertical (will add diagram very soon)
+5. Place the orange servo gear onto the lower servo's horn, making sure the gear lines up well with the CAM gear. Make sure not to move the CAM gear. Adjust the servo gear based on it. Try to make the rubbing between the top og the servo gear and the CAM as less as possible.
+6. Then, place the white outer CAM on top of the orange CAM, with the dot facing in the same orientation. 
+7. Place the white servo gear onto the higher servo's horn. Do the same as the other one.
+8. Use the servo srews that they provided and screw the servo gears onto the servo horns, onto the servo.
+9. No screws are needed for the CAMs, they are held in place by the servo gears as well as each other.
+10. Unplug the two external power supplies from the PCA9685 and Raspberry Pi.
 
 ## Roof and Walls and Button
 1. Although the gears should be in place fairly snug, try not to flip the box upside down or shake it violently. It is not meant to be shaken.
