@@ -22,7 +22,7 @@ This setup guide should be completed first before the hardware setup guide.
 ## Using Adafruit PCA9685 Servo Driver
 1. This project requires an Adafruit PCA9685 Servo Driver which helps powers servos without having to put load onto the Raspberry Pi
 2. Go to your terminal in the Raspberry Pi and type in this command: `sudo pip3 install adafruit-circuitpython-servokit`
-3. If an "externally managed" error comes up, type in this command: `sudo rm /usr/lib/python3.11/EXTERNALLY-MANAGED`
+3. If an "externally managed" error comes up, type in this command: `sudo rm /usr/lib/python3.13/EXTERNALLY-MANAGED`
 4. This should download the library necessary for the code to run properly.
 5. Refer to this documentation is anything is unclear: https://docs.circuitpython.org/projects/servokit/en/latest/
 
