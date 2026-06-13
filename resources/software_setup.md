@@ -29,7 +29,11 @@ This setup guide should be completed first before the hardware setup guide.
 ## Installing Libraries
 1. Go to you Raspberry Pi terminal (which you should have open already from the preivous steps)
 2. Install easyocr: `sudo pip3 install easyocr`
-3. Install deep_translator: `sudo pip3 install deep-translator`
+  However, oftentimes you will encounter an error where it says it runs out of space. In that case, you will need to follow these steps:
+    - Run command: `mkdir -p ~/pip_tmp` to create a temporary folder in the main drive with a lot of space to download easyocr instead of using the RAM drive
+    - Run command: `TMPDIR=~/pip_tmp pip install easyocr` to install it on the main drive
+    - Run command: `rm -rf ~/pip_tmp` to remove the temporary folder used to download it to save space. Don't worry, the library is already installed and this won't affect that. 
+4. Install deep_translator: `sudo pip3 install deep-translator`
 
 ## Code Running Upon Power On
 1. This is optional but you can run the code as soon as the Raspberry Pi is powered on, to give a more authentic feel to the project, making it seem like its a real product.
