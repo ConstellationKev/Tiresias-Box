@@ -83,6 +83,11 @@ The button’s wires can be routed in any way to the GPIO5 and the ground pin ne
 Wiring Diagram  
 ![](assets/wiring%20diagram.jpg)
 
+# V1 Testing
+
+Testing for proof of concept:
+![](assets/v1testing.gif)
+
 # Credits
 
 All 3D Models cadded with Onshape.
