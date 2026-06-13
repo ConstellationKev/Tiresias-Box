@@ -2,7 +2,7 @@
 If you haven't already, please set up the Rapsberry Pi 5 software and OS first before doing the hardware setup. This can be found in the [software setup](software_setup.md) file.
 PLEASE REFER TO THIS WIRING DIAGRAM AS YOU PROCEED:
 ![](wiring%20diagram.jpg)
-These hardware steps are assuming you have everything that the BOM requires. Also refer to the [BOM](../BOM/BOM.csv) which will contain everything you will need to assemble this project.
+These hardware steps are assuming you have everything that the BOM requires, including 3D printed parts using the STEP files in the CAD folder. Also refer to the [BOM](../BOM/BOM.csv) which will contain everything you will need to assemble this project.
 
 ## Starting to Putting Everything Together (Leave Gears to the End)
 1. First, print out the 3D file for the base of this box, as well as all of the other required 3D printed parts included.
