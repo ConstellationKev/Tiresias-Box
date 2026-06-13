@@ -117,3 +117,7 @@ def position(servo_num, end_pos, delay):
 def initial_pos():
     kit.servo[0].angle = cur_pos_inner
     kit.servo[3].angle = cur_pos_outer
+
+def off():
+    kit.servo[0].angle = None
+    kit.servo[3].angle = None

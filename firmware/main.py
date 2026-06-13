@@ -43,3 +43,4 @@ while status:
             letters = []
 
 camera.stop_camera()
+servos.off()
