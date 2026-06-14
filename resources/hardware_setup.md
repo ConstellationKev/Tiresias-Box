@@ -5,7 +5,7 @@ PLEASE REFER TO THIS WIRING DIAGRAM AS YOU PROCEED:
 These hardware steps are assuming you have everything that the BOM requires, including 3D printed parts using the STEP files in the CAD folder. Also refer to the [BOM](../BOM/BOM.csv) which will contain everything you will need to assemble this project.
 
 ## Starting to Putting Everything Together (Leave Gears to the End)
-1. First, print out the 3D file for the base of this box, as well as all of the other required 3D printed parts included. I recommend 10% infill and gyroid infill pattern.
+1. First, print out the 3D file for the base of this box, as well as all of the other required 3D printed parts included. I recommend 10% infill and gyroid infill pattern, with a 0.4 nozzle, 0.12mm High Quality @BBL A1 setting.
 2. Take your base and we will first start with the Raspberry Pi
 3. Place your Raspberry Pi onto the 4 screw holes with the USB-C port facing away from the curvy wall.
 4. Take your 4 long spacers and put them respectively onto the 4 holes on the Raspberry Pi.
