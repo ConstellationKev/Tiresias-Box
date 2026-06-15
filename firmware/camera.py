@@ -1,5 +1,5 @@
 from picamera2 import Picamera2 #exclusive to raspberry pi OS so I can't import properly in vscode
-from libcamera import controls #exclusive to rpi 5 as well
+from libcamera import controls, Transform #exclusive to rpi 5 as well
 from deep_translator import GoogleTranslator
 import easyocr
 import time
@@ -18,6 +18,7 @@ camera.options["quality"] = 95
 camera.start()
 time.sleep(2)
 camera.set_controls({"AfMode": controls.AfModeEnum.Continuous})
+camera.set_controls({"transform": Transform(hflip=1, vflip=1)})
 
 #takes photo based on button press
 def take_photo():
