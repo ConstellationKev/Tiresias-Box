@@ -42,6 +42,9 @@ This setup guide should be completed first before the hardware setup guide.
 4. Type in the command: `@reboot python3 /home/pi/Desktop/main.py &`
 5. The above really depends on where you put your code files so you can change it accordingly. This assumes you have it all on your Desktop but you would likely have them in the firmware folder still.
 
+## More: Raspberry Pi Camera
+You can go into the terminal and type in `rpicam-hello -t 0` to get a live camera feed. You do need to close the window to stop it. Do this after you have attached your camera.
+
 ## Huge Thanks
 I want to thank these YouTube videos which were an insane help to me when creating this project, they explained things so well and allowed to be get a good grasp despite being a complete beginner. 
 Please refer to these videos if my explanations were unclear in any way, they are amazing.
