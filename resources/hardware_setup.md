@@ -10,7 +10,7 @@ These hardware steps are assuming you have everything that the BOM requires, inc
 3. Place your Raspberry Pi onto the 4 screw holes with the USB-C port facing away from the curvy wall.
 4. Take your 4 long spacers and put them respectively onto the 4 holes on the Raspberry Pi.
 5. Use M2.5 16mm screws to screw the Raspberry Pi and the 4 spacers from below the base.
-6. Attach your Raspberry Pi Camera Module 3 to the camera mount, the one with holes facing horizontally, using M2.5 8mm screws and nuts on the back.
+6. Attach your Raspberry Pi Camera Module 3 to the camera mount, the one with holes facing horizontally, using M2 8mm screws and nuts on the back.
 7. Connect your Raspberry Pi 5 FPC Camera Cable, with the wider end into the camera and the thinner end into the Pi's camera port, aka the closest MIPI connector.
 8. Take the 3D printed upper mounting plate for the PCA9685 and place it on top of the four long spacers, making sure the opened up part is facing the curvy wall.
 9. Make sure to tuck the camera's FPC cable nice and snug under the plate so that it doesn't block any of the header pins on the Raspberry Pi.
