@@ -18,7 +18,7 @@ camera.options["quality"] = 95
 camera.start()
 time.sleep(2)
 camera.set_controls({"AfMode": controls.AfModeEnum.Continuous})
-camera.set_controls({"transform": Transform(hflip=1, vflip=1)})
+camera.set_controls({"transform": Transform(hflip=True, vflip=True)})
 
 #takes photo based on button press
 def take_photo():
