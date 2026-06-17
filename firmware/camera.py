@@ -12,29 +12,31 @@ camera = Picamera2()
 reader = easyocr.Reader(["ch_sim", "en"], gpu=False, quantize=True) # may not be good for RAM to make 2 readers so we combine to one model
 
 camera_config = camera.create_still_configuration()
+camera_config["transform"] = Transform(hflip=True, vflip=True)
 camera.configure(camera_config)
 camera.options["quality"] = 95
 
 camera.start()
-time.sleep(2)
 camera.set_controls({"AfMode": controls.AfModeEnum.Continuous})
-camera.set_controls({"transform": Transform(hflip=True, vflip=True)})
+
+time.sleep(20)
+
+img_path = "photo.jpg"
 
 #takes photo based on button press
 def take_photo():
-    img_path = "/home/pi/photo.jpg"
     camera.capture_file(img_path)
 
 #returns array of letters
 def analyze_photo():
     try:
         letters = [] #no spaces
-        results = reader.readtext("/home/pi/photo.jpg", detail = 0, paragraph = True)
+        results = reader.readtext(img_path, detail = 0, paragraph = True)
         for letter in results[0]:
             char = letter.lower()
             if char != " " and ((char in alphabet) or (char in numbers)): # okay maybe I don't need char != " " but just keep it there for sanity
                 letters.append(char)
-        os.remove("/home/pi/photo.jpg")
+        os.remove(img_path)
         return letters
     except:
         print("You probably have not taken a photo yet")
@@ -43,13 +45,13 @@ def analyze_photo():
 def analyze_chinese_photo():
     try:
         letters = [] #no spaces
-        results = reader.readtext("/home/pi/photo.jpg", detail = 0, paragraph = True)
+        results = reader.readtext(img_path, detail = 0, paragraph = True)
         translated = GoogleTranslator(source='chinese (simplified)', target='english').translate(results[0])
         for letter in translated:
             char = letter.lower()
             if char != " " and ((char in alphabet) or (char in numbers)): # okay maybe I don't need char != " " but just keep it there for sanity
                 letters.append(char)
-        os.remove("/home/pi/photo.jpg")
+        os.remove(img_path)
         return letters
     except:
         print("You probably have not taken a photo yet")

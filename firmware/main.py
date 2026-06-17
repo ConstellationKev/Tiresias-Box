@@ -16,10 +16,10 @@ wait = 5 # should tune this wait time
 letters = []
 
 while status:
-    if button.is_pressed and not pressed:
+    if button.is_pressed and not pressed and not photo_taken:
         pressed = True
         start_time = time.time()
-    elif not button.is_pressed and pressed:
+    elif not button.is_pressed and pressed and not photo_taken:
         pressed = False
         duration = time.time() - start_time
         if duration >= 6:
@@ -31,7 +31,6 @@ while status:
             photo_taken = True
 
     if photo_taken:
-        photo_taken = False
         if english:
             letters = camera.analyze_photo()
         else:
@@ -41,6 +40,7 @@ while status:
                 servos.move_to_letter(letters[i].lower())
                 time.sleep(wait)
             letters = []
+        photo_taken = False
 
 camera.stop_camera()
 servos.off()
