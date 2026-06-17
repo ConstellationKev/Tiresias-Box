@@ -66,7 +66,7 @@ Where the external power supplies should be plugged in
 | 6mm 2 Pin Panel PCB Momentary Tactile Tact Push Button | To control when to take pictures, change the braille, and turn off the code. |
 | 16GB+ Micro SD Card | Store files and the Raspberry Pi OS. |
 
-You can find more detailed buying links and prices of these components as well as other materials not listed here in the Bill Of Materials.
+You can find more detailed buying links and prices of these components as well as other materials not listed here in the [Bill Of Materials](/BOM/BOM.csv).
 
 # About EasyOCR and Deep Translator
 
