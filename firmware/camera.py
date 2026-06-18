@@ -62,4 +62,4 @@ def stop_camera():
 
 def start_camera(): #camera usually already started but just in case yk
     camera.start()
-    time.sleep(2)
+    time.sleep(20)

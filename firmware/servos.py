@@ -93,6 +93,7 @@ def move_to_letter(letter):
 
 #gradually moves servo
 def position(servo_num, end_pos, delay):
+    global cur_pos_inner, cur_pos_outer
     start_pos = 0
     if servo_num == 0: 
         start_pos = cur_pos_inner
@@ -103,7 +104,6 @@ def position(servo_num, end_pos, delay):
     if start_pos < end_pos:
         step = 1
 
-    #may need to change delay later on
     for pos in range(start_pos, end_pos+step, step):
         kit.servo[servo_num].angle = pos
         time.sleep(delay)
@@ -115,6 +115,7 @@ def position(servo_num, end_pos, delay):
 
 #should run this first
 def initial_pos():
+    global cur_pos_inner, cur_pos_outer
     kit.servo[0].angle = cur_pos_inner
     kit.servo[3].angle = cur_pos_outer
 

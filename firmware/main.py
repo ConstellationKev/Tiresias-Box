@@ -12,7 +12,7 @@ pressed = False
 photo_taken = False
 start_time = time.time()
 duration = 0
-wait = 5 # should tune this wait time
+wait = 3
 letters = []
 
 while status:
@@ -26,6 +26,7 @@ while status:
             status = False
         elif duration >= 3:
             english = not english
+            time.sleep(1)
         else:
             camera.take_photo()
             photo_taken = True
@@ -36,7 +37,7 @@ while status:
         else:
             letters = camera.analyze_chinese_photo()
         if letters != []:
-            for i in len(letters):
+            for i in range(len(letters)):
                 servos.move_to_letter(letters[i].lower())
                 time.sleep(wait)
             letters = []
