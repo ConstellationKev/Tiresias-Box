@@ -19,7 +19,7 @@ This is a fun box that has a feature to take pictures of where its camera is poi
 * **Autofocus Raspberry Pi Camera Module 3**: Camera that does not require manual focusing and can take pictures of its surroundings in high detail and resolution to help with text extraction and analysis.  
 * **Raspberry Pi 5**: The Raspberry Pi and the fact that all the mechanisms that drive that this project are connected to it makes this project very customizable. The Raspberry Pi allows for extremely fast live processing and analysis as well as file storage and servo control. Other people wanting to make this project can add onto the preexisting code as well as connect other mechanisms to widen the capabilities of this box.  
 * **Blind Friendly** **Usage**: All of the ports and other important parts of the box are labeled with real braille which can be read by blind people. Although this box is not the most practical design currently, it is still able to be used completely by blind people.
-* **Both Chinese Simplified And English Support**: This little box is able to both extract English text as well as Chinese Simplified characters and translating it to English, covering two of the biggested languages in the world.  
+* **Both Chinese Simplified And English Support**: This little box is able to both extract English text as well as Chinese Simplified characters and translating it to English, covering two of the biggest languages in the world.  
 
 Custom braille CAM actuators  
 ![](assets/custom%20cams.png)
