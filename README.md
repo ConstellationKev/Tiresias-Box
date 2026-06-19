@@ -23,6 +23,7 @@ This is a fun box that has a feature to take pictures of where its camera is poi
 
 Custom braille CAM actuators  
 ![](assets/custom%20cams.png)
+![](assets/printed%20cam.jpeg)
 
 # Why?
 
@@ -52,6 +53,7 @@ Do these steps after you have properly assembled and set up the box please. They
 
 Where the external power supplies should be plugged in  
 ![](assets/power%20supply.png)
+![](assets/power.jpg)
 
 # Hardware
 
