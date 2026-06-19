@@ -37,11 +37,14 @@ Refer to these YouTube videos if you are confused, they helped me a ton: https:/
 4. Plug in the 5V power supply into a wall socket and the other end into the female DC power adapter.
 5. Plug in the USB-C power supply into a wall socket and the other end into the Raspberry Pi.
 
+Should look something like this right now
+![](/resources/reference%20images/yes.jpeg)
+
 ## Gears
 1. Plug your Raspberry Pi into a monitory, since you need to run code.
 2. Run hardware_setup.py and then make sure to not touch the servo splines or move them after the code is ran.
 3. Place the inner orange CAM on the bottom first, onto the indent for it. Locate the small dot on the gear and make sure it faces away from the direction the camera is pointing.
-4. Place the double-sided servo horns on each of the servos, putting one of the sides as close to the normal as possible but not entirely vertical (will add diagram very soon)
+4. Place the double-sided servo horns on each of the servos, putting one of the sides as close to the normal as possible but not entirely vertical
 5. Place the orange servo gear onto the lower servo's horn, making sure the gear lines up well with the CAM gear. Make sure not to move the CAM gear. Adjust the servo gear based on it. Try to make the rubbing between the top og the servo gear and the CAM as less as possible.
 6. Then, place the white outer CAM on top of the orange CAM, with the dot facing in the same orientation. 
 7. Place the white servo gear onto the higher servo's horn. Do the same as the other one.
@@ -59,3 +62,4 @@ Refer to these YouTube videos if you are confused, they helped me a ton: https:/
 7. Finally, place the 6 braille pins into the 6 holes on the top of the roof. Do not push them in, simply let them drop in.
 
 You are done! Make sure to keep the box mostly upright when using to keep the pins from falling out (which is unlikely but only if you turn it fully upside down).
+![](/assets/front.png)
