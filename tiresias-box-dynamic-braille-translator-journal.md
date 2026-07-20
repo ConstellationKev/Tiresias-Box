@@ -12,7 +12,7 @@
 ### Content
 
 Today I began my journey creating my dynamic braille translator. I used Onshape to design a single braille cell, which consists of 6 pegs that will eventually be controlled by a CAM to make them move up and down; each cell will be its own letter. In real life, I got out a ruler and figured out the approximate dimensions of each braille cell, which is about 15mm x 22mm. I created the outer casing and then the inside pins, since they need to be moving around in the casing.
-![Screenshot 2026-06-02 220050.png](fallout.hackclub.com/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjYxMDYsInB1ciI6ImJsb2JfaWQifX0=--a182191e49a3422bc15f294d3c78be94d5ef4a0f/Screenshot 2026-06-02 220050.png)
+![Screenshot 2026-06-02 220050.png](/fallout.hackclub.com/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjYxMDYsInB1ciI6ImJsb2JfaWQifX0=--a182191e49a3422bc15f294d3c78be94d5ef4a0f/Screenshot 2026-06-02 220050.png)
 This is a bit larger than conventional braille cells but it is still relatively small and also big enough so it will work well with a CAM. After creating temporary tolerances for the pegs as well as their design, with the bump on the top and part of it sticking downwards which will be in contact with the CAM.
 
 ![Screenshot 2026-06-02 222305.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjYxMDcsInB1ciI6ImJsb2JfaWQifX0=--42786f58c6722cb557234e66211960fbdb5a0608/Screenshot 2026-06-02 222305.png)
